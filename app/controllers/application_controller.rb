@@ -47,5 +47,6 @@ class ApplicationController < Sinatra::Base
       # Convert the updated task data to JSON format and return it.
       task.to_json
     end
+    
   end
   
