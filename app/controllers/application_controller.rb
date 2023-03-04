@@ -11,6 +11,14 @@ class ApplicationController < Sinatra::Base
             task.to_json
           end
 
+          post "/task" do
+                tasks = Task.create(
+                activity: params[:activity]
+                
+                )
+                tasks.to_json
+            end
+
     
       
     
