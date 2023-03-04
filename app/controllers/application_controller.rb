@@ -6,6 +6,11 @@ class ApplicationController < Sinatra::Base
         task.to_json
     end
 
+    get "/task/:id" do
+            task = Task.find(params[:id])
+            task.to_json
+          end
+
     
       
     
