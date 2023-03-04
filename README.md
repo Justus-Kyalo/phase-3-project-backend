@@ -3,7 +3,7 @@
 
 # Entity Relationship Diagram
 ERD diagram
-![erd.png]("https://github.com/RemmyKyalo/phase-3-project-backend/blob/main/erd.png")
+![erd.png](https://github.com/RemmyKyalo/phase-3-project-backend/blob/main/erd.png)
 
 # Topics
 - sinatra
