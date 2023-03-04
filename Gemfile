@@ -11,7 +11,7 @@ group :development do
    gem "rerun"
   end
 gem  'faker'
-gem 'shotgun'
+# gem 'shotgun'
 gem 'require_all'
 gem 'sinatra'
 gem 'tux'
