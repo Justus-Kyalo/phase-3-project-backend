@@ -1,4 +1,4 @@
-puts "seeding users"
+p "seeding users"
 # Create 5 users
 user_names = ["Alice", "Bob", "Charlie", "David", "Eve"]
 user_emails = ["alice@example.com", "bob@example.com", "charlie@example.com", "david@example.com", "eve@example.com"]
@@ -16,7 +16,7 @@ task_activities.each do |activity|
   Task.create(activity: activity)
 end
 
-puts "assigning tasks randomly"
+p "assigning tasks randomly"
 # Share some tasks among users
 Task.all.each do |task|
   # Randomly assign 2 users to each task
@@ -28,4 +28,4 @@ Task.all.each do |task|
   end
 end
 
-puts "seeds created successfully"
+p "seeds created successfully"
