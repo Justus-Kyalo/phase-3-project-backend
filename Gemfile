@@ -8,16 +8,11 @@ gem 'pry'
 gem "rack-contrib", "~> 2.3"
 gem "rack-cors", "~> 1.1"
 group :development do
-    # gem "pry", "~> 0.14.1"
-  
-    # Automatically reload when there are changes
-    # https://github.com/alexch/rerun
-    gem "rerun"
+   gem "rerun"
   end
 gem  'faker'
 gem 'shotgun'
 gem 'require_all'
-
 gem 'sinatra'
 gem 'tux'
 gem 'thin'
